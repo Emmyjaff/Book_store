@@ -1,0 +1,160 @@
+/* General formatting and imports */
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'MYRIADPRO-REGULAR' ;
+    src: url(./fonts/MYRIADPRO-REGULAR.OTF);
+}
+body{
+    font-family: 'MYRIADPRO-REGULAR';
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+/* central width for body */
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+/* header styling */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #690808;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+header h1{
+    text-transform: uppercase;
+    color: #fff;
+}
+/* form styling */
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.inputGroup{
+    display: flex;
+    margin-bottom: 20px;
+}
+.inputGroup label{
+    background-color: #690808;
+    color: #fff;
+    padding: 10px 0;
+    width: 40px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.inputGroup input{
+    flex: 1;
+    height: 50px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: background-color ease-in-out 1s;
+}
+.blue{
+    background-color: #0887fd;
+}
+.blue:hover{
+    background-color: #03448d;
+}
+.red{
+    background-color: #fd0852;
+}
+.red:hover{
+    background-color: #6d0424;
+}
+.dark{
+    background-color: #161212;
+}
+.dark:hover{
+    background-color: #0a0a0a;
+}
+.green{
+    background-color: #0cbb4f;
+}
+.green:hover{
+    background-color: #026112;
+}
+/* table styling */
+table{
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+table thead{
+    background-color: #0a0d11;
+    width: 100%;
+}
+thead{
+    border-bottom: 1px solid #bac1cc;
+    padding: 20px;
+    justify-content: center;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+td button{
+    background: none;
+
+}
+tbody{
+    background-color: #0f131a;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+}
+tbody tr{
+    margin-bottom: 30px;
+}
+/* 
+    styling of onclick messages
+*/
+.success{
+    background-color: #90ee90;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
+.error {
+    background: tomato;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
